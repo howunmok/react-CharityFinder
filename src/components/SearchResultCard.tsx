@@ -38,7 +38,7 @@ const SearchResultCard: React.FC<SearchResultCardProps> = ({ data }) => {
           {data.coverImageUrl ? (
             <img src={data.coverImageUrl} alt="" />
           ) : (
-            <img src="../src/assets/defaultCharity.jpg" alt="" />
+            <img src="../public/assets/defaultCharity.jpg" alt="" />
           )}
         </AspectRatio>
         <CardContent orientation="horizontal">

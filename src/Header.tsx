@@ -28,7 +28,7 @@ const Header = () => {
             >
               Charity Finder
             </Typography> */}
-            <img src="./src/assets/cflogo.png" alt="CF logo" width={110} />
+            <img src="./public/assets/cflogo.png" alt="CF logo" width={110} />
           </Link>
           <div className={styles.headerTools}>
             <SearchBar />

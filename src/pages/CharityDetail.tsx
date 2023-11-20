@@ -84,7 +84,10 @@ const CharityDetail = () => {
               {props.coverImageUrl ? (
                 <img src={props.coverImageUrl} alt="Cover Image" />
               ) : (
-                <img src="../src/assets/defaultCharity.jpg" alt="Cover Image" />
+                <img
+                  src="../public/assets/defaultCharity.jpg"
+                  alt="Cover Image"
+                />
               )}
             </AspectRatio>
             <IconButton
@@ -111,7 +114,7 @@ const CharityDetail = () => {
               <Avatar src={props.logoUrl} sx={{ "--Avatar-size": "4rem" }} />
             ) : (
               <Avatar
-                src="../src/assets/defaultlogo.png"
+                src="../public/assets/defaultlogo.png"
                 sx={{ "--Avatar-size": "4rem" }}
               />
             )}
