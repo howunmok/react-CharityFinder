@@ -38,7 +38,7 @@ const Home = () => {
     <div>
       <div className={styles.imgContainer}>
         <img
-          src="../public/assets/header.jpg"
+          src="../assets/header.jpg"
           alt=""
           width="100%"
           style={{ marginTop: 80 }}

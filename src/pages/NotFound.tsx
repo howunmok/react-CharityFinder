@@ -6,7 +6,7 @@ const NotFound = () => {
   return (
     <div>
       <img
-        src="../public/assets/404.jpg"
+        src="../assets/404.jpg"
         alt="404 error"
         style={{
           width: "80%",
@@ -18,7 +18,7 @@ const NotFound = () => {
       />
       <Link to="/">
         <img
-          src="../public/assets/cflogocolored.jpeg"
+          src="../assets/cflogocolored.jpeg"
           alt="CF logo"
           style={{
             width: "20%",

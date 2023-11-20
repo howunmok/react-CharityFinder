@@ -1,5 +1,6 @@
 .appBar {
   height: 100px;
+  z-index: 1 !important;
 }
 .toolbar {
   display: flex;

@@ -29,6 +29,7 @@ const SearchBar = () => {
             placeholder="Type of Charity"
             options={causeList.map((causes) => causes)}
             onChange={handleSelect}
+            style={{ zIndex: 5000 }}
           />
         </FormControl>
       </Stack>

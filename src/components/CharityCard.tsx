@@ -46,7 +46,7 @@ const CharityCard: React.FC<CharityCardProps> = ({ data }) => {
             {data.logoUrl ? (
               <img src={data.logoUrl} alt={data.name} />
             ) : (
-              <img src="../public/assets/defaultlogo.png" alt="Default Logo" />
+              <img src="../assets/defaultlogo.png" alt="Default Logo" />
             )}
           </AspectRatio>
         </CardOverflow>
