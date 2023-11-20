@@ -1,0 +1,14 @@
+.notFound {
+  display: block;
+  margin-top: 110px;
+}
+.cfLogo {
+}
+
+@media screen and (max-width: 600px) {
+  .notFound {
+    display: block;
+    margin-top: 150px;
+  }
+
+}

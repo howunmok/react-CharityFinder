@@ -1,0 +1,17 @@
+.headerImg {
+  display: flex;
+}
+
+.marginBlock {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .headerImg {
+    display: none;
+  }
+  .marginBlock {
+    display: block;
+    height: 140px;
+  }
+}
