@@ -7,6 +7,7 @@ import { Link } from "react-router-dom"
 import AppBar from "@mui/material/AppBar"
 import Box from "@mui/material/Box"
 import Toolbar from "@mui/material/Toolbar"
+// import logo from '../public/assets/cflogo.png'
 
 import FavoriteButton from "./components/FavoriteButton"
 
@@ -28,7 +29,7 @@ const Header = () => {
             >
               Charity Finder
             </Typography> */}
-            <img src="./public/assets/cflogo.png" alt="CF logo" width={110} />
+            <img src="./assets/cflogo.png" alt="CF logo" width={110} />
           </Link>
           <div className={styles.headerTools}>
             <SearchBar />
