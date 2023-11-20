@@ -1,6 +1,5 @@
 import SearchBar from "./components/SearchBar"
-import React from "react"
-import { Stack } from "@mui/material"
+
 import styles from "./Header.module.css"
 import { Link } from "react-router-dom"
 //mui
@@ -8,7 +7,7 @@ import { Link } from "react-router-dom"
 import AppBar from "@mui/material/AppBar"
 import Box from "@mui/material/Box"
 import Toolbar from "@mui/material/Toolbar"
-import Typography from "@mui/material/Typography"
+
 import FavoriteButton from "./components/FavoriteButton"
 
 const Header = () => {

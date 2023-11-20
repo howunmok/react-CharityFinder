@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import { useLocation } from "react-router-dom"
-import { styled } from "@mui/joy/styles"
-import Sheet from "@mui/joy/Sheet"
+
 import AspectRatio from "@mui/joy/AspectRatio"
 import Card from "@mui/joy/Card"
 import CardContent from "@mui/joy/CardContent"
@@ -67,7 +66,9 @@ const CharityDetail = () => {
   }
 
   function rmFav() {
-    const index = cacheData.findIndex((obj) => obj.ein === props.ein)
+    const index = cacheData.findIndex(
+      (obj: { ein: string }) => obj.ein === props.ein
+    )
     cacheData.splice(index, 1)
     localStorage.setItem("favoriteList", JSON.stringify(cacheData))
     setAddBtn(true)

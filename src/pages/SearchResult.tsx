@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react"
-import { useLocation, useParams } from "react-router-dom"
+import { useEffect, useState } from "react"
+import { useParams } from "react-router-dom"
 // import { Link } from "react-router-dom"
 import axios from "axios"
 import SearchResultCard from "../components/SearchResultCard"

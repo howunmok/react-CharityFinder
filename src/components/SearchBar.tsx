@@ -1,4 +1,5 @@
 // import { Search } from "@mui/icons-material"
+import { SyntheticEvent } from "react"
 import FormControl from "@mui/joy/FormControl"
 
 import Stack from "@mui/joy/Stack"
@@ -11,8 +12,13 @@ const SearchBar = () => {
 
   const navigate = useNavigate()
 
-  const handleSelect = (event, value) => {
-    navigate("/search/" + encodeURIComponent(value))
+  const handleSelect = (
+    _: SyntheticEvent<Element, Event>,
+    value: string | null
+  ) => {
+    if (value !== null) {
+      navigate("/search/" + encodeURIComponent(value))
+    }
   }
 
   return (

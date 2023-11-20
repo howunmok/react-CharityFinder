@@ -1,5 +1,3 @@
-import React from "react"
-import IconButton from "@mui/material/IconButton"
 import FavoriteBorder from "@mui/icons-material/FavoriteBorder"
 import Button from "@mui/joy/Button"
 import Typography from "@mui/joy/Typography"
